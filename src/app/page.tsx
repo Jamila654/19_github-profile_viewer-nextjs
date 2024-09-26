@@ -120,7 +120,6 @@ export default function Home() {
                     <p>Repos</p>
                   </div>
                 </div>
-                <a href="href={userProfile.html_url}" target="_blank">click here to view profile</a>
                 <h3 className="mt-6 text-lg font-bold">Repositories</h3>
                 <div className="w-full mt-4">
                   {userRepos.length > 0 ? (
